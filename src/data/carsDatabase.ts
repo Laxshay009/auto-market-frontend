@@ -82,7 +82,6 @@ export const carsDatabase = [
     ],
     images: {
       exterior: [
-        "https://images.unsplash.com/photo-1555215858-9dc80e68d81c?w=1200",
         "https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=1200",
         "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=1200"
       ],
@@ -308,12 +307,10 @@ export const carsDatabase = [
     ],
     images: {
       exterior: [
-        "https://images.unsplash.com/photo-1606611013016-969c19d9601e?w=1200",
-        "https://images.unsplash.com/photo-1609207807107-e8bb7887a696?w=1200",
         "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=1200"
       ],
       interior: [
-        "https://images.unsplash.com/photo-1616788494672-833e29865b4f?w=1200"
+        "https://images.unsplash.com/photo-1558601223-cfb65bde6154?w=1200",
       ]
     },
     features: {
@@ -528,12 +525,11 @@ export const carsDatabase = [
     ],
     images: {
       exterior: [
-        "https://images.unsplash.com/photo-1622172437688-83b5e9e7c10f?w=1200",
-        "https://images.unsplash.com/photo-1621776257692-4409ba6bfe10?w=1200",
+        "https://images.unsplash.com/photo-1592234418192-c89d942e2967?w=1200",
+        "https://images.unsplash.com/photo-1516298103702-43b22eb200e8?w=1200",
         "https://images.unsplash.com/photo-1600712242805-5f78671b24da?w=1200"
       ],
       interior: [
-        "https://images.unsplash.com/photo-1616788494707-35c6064ed9b1?w=1200"
       ]
     },
     features: {
@@ -638,8 +634,8 @@ export const carsDatabase = [
     ],
     images: {
       exterior: [
-        "https://images.unsplash.com/photo-1618843479619-f3d19eb63876?w=1200",
-        "https://images.unsplash.com/photo-1626241802605-1b2a081e93db?w=1200"
+        "https://images.unsplash.com/photo-1608340821332-3a73fadd890c?w=1200",
+        "https://images.unsplash.com/photo-1610353268208-9e6f56ca78ba?w=1200",
       ],
       interior: [
         "https://images.unsplash.com/photo-1616788494707-ec28f08d05a1?w=1200"
@@ -801,8 +797,8 @@ export const carsDatabase = [
     ],
     images: {
       exterior: [
-        "https://images.unsplash.com/photo-1616788494672-ec7ca25fdce0?w=1200",
-        "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=1200"
+        "https://images.unsplash.com/photo-1669273009036-b7543ec95047?w=1200",
+        "https://images.unsplash.com/photo-1703912549221-7b9457fe23a7?w=1200"
       ],
       interior: [
         "https://images.unsplash.com/photo-1616788494707-ec28f08d05a1?w=1200"

@@ -56,7 +56,7 @@ const SavedPage: React.FC<SavedPageProps> = ({ isDarkMode = false }) => {
       totalPrice: 113200,
       basePrice: 108000,
       savedDate: '2024-01-10',
-      image: 'https://images.unsplash.com/photo-1555215858-9df5013b7c89?auto=format&fit=crop&w=800'
+      image: 'https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=1200'
     },
     {
       id: 3,
@@ -86,7 +86,7 @@ const SavedPage: React.FC<SavedPageProps> = ({ isDarkMode = false }) => {
       totalPrice: 122500,
       basePrice: 118000,
       savedDate: '2024-01-03',
-      image: 'https://images.unsplash.com/photo-1606664515524-ed618f6bb2b3?auto=format&fit=crop&w=800'
+      image: 'https://images.unsplash.com/photo-1606152421802-db97b9c7a11b?w=1200'
     }
   ]);
 

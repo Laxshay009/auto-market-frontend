@@ -32,7 +32,7 @@ interface Vehicle {
     transmission: string;
     drivetrain: string;
   };
-  features: string[];
+  features: {safety:string[]};
   mpg?: {
     city: number;
     highway: number;
@@ -339,7 +339,7 @@ const ComparePage: React.FC<ComparePageProps> = ({ isDarkMode = false }) => {
                         {vehicle.make} {vehicle.model}
                       </h4>
                       <ul className="space-y-1">
-                        {vehicle.features.slice(0, 5).map((feature, idx) => (
+                        {vehicle.features?.safety?.slice(0, 5).map((feature, idx) => (
                           <li key={idx} className="text-sm flex items-start gap-1">
                             <Check className="text-modern-green mt-0.5" size={14} />
                             <span>{feature}</span>
