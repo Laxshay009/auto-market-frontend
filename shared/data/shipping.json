@@ -1,0 +1,227 @@
+{
+  "ports": [
+    {
+      "id": "ny",
+      "name": "New York Port",
+      "city": "New York",
+      "state": "NY",
+      "coordinates": {"lat": 40.7128, "lng": -74.0060},
+      "baseCost": 500,
+      "processingTime": "3-5 days"
+    },
+    {
+      "id": "la",
+      "name": "Port of Los Angeles",
+      "city": "Los Angeles",
+      "state": "CA",
+      "coordinates": {"lat": 33.7405, "lng": -118.2718},
+      "baseCost": 450,
+      "processingTime": "2-4 days"
+    },
+    {
+      "id": "houston",
+      "name": "Port of Houston",
+      "city": "Houston",
+      "state": "TX",
+      "coordinates": {"lat": 29.7604, "lng": -95.3698},
+      "baseCost": 400,
+      "processingTime": "3-4 days"
+    },
+    {
+      "id": "miami",
+      "name": "Port of Miami",
+      "city": "Miami",
+      "state": "FL",
+      "coordinates": {"lat": 25.7617, "lng": -80.1918},
+      "baseCost": 475,
+      "processingTime": "2-3 days"
+    },
+    {
+      "id": "seattle",
+      "name": "Port of Seattle",
+      "city": "Seattle",
+      "state": "WA",
+      "coordinates": {"lat": 47.6062, "lng": -122.3321},
+      "baseCost": 525,
+      "processingTime": "4-5 days"
+    },
+    {
+      "id": "charleston",
+      "name": "Port of Charleston",
+      "city": "Charleston",
+      "state": "SC",
+      "coordinates": {"lat": 32.7765, "lng": -79.9311},
+      "baseCost": 425,
+      "processingTime": "3-4 days"
+    },
+    {
+      "id": "baltimore",
+      "name": "Port of Baltimore",
+      "city": "Baltimore",
+      "state": "MD",
+      "coordinates": {"lat": 39.2904, "lng": -76.6122},
+      "baseCost": 460,
+      "processingTime": "2-4 days"
+    },
+    {
+      "id": "oakland",
+      "name": "Port of Oakland",
+      "city": "Oakland",
+      "state": "CA",
+      "coordinates": {"lat": 37.8044, "lng": -122.2712},
+      "baseCost": 480,
+      "processingTime": "3-5 days"
+    },
+    {
+      "id": "savannah",
+      "name": "Port of Savannah",
+      "city": "Savannah",
+      "state": "GA",
+      "coordinates": {"lat": 32.0809, "lng": -81.0912},
+      "baseCost": 410,
+      "processingTime": "2-3 days"
+    },
+    {
+      "id": "portland",
+      "name": "Port of Portland",
+      "city": "Portland",
+      "state": "OR",
+      "coordinates": {"lat": 45.5152, "lng": -122.6784},
+      "baseCost": 495,
+      "processingTime": "3-5 days"
+    }
+  ],
+  "destinations": [
+    {"state": "CA", "distanceMultiplier": 1.0},
+    {"state": "TX", "distanceMultiplier": 0.8},
+    {"state": "FL", "distanceMultiplier": 0.9},
+    {"state": "NY", "distanceMultiplier": 1.1},
+    {"state": "IL", "distanceMultiplier": 0.95},
+    {"state": "PA", "distanceMultiplier": 1.05},
+    {"state": "OH", "distanceMultiplier": 0.9},
+    {"state": "GA", "distanceMultiplier": 0.85},
+    {"state": "NC", "distanceMultiplier": 0.88},
+    {"state": "MI", "distanceMultiplier": 0.92}
+  ],
+  "shippingOptions": [
+    {
+      "id": "standard",
+      "name": "Standard Shipping",
+      "description": "Open carrier transport",
+      "costMultiplier": 1.0,
+      "estimatedDays": "7-14",
+      "features": ["Basic insurance", "Door-to-door delivery", "Real-time tracking"]
+    },
+    {
+      "id": "enclosed",
+      "name": "Enclosed Transport",
+      "description": "Fully enclosed carrier for maximum protection",
+      "costMultiplier": 1.5,
+      "estimatedDays": "5-10",
+      "features": ["Premium insurance", "Weather protection", "White glove service", "Priority handling"]
+    },
+    {
+      "id": "express",
+      "name": "Express Delivery",
+      "description": "Expedited shipping with guaranteed dates",
+      "costMultiplier": 2.0,
+      "estimatedDays": "3-5",
+      "features": ["Maximum insurance", "Guaranteed delivery date", "Dedicated carrier", "24/7 support"]
+    }
+  ],
+  "insuranceOptions": [
+    {
+      "id": "basic",
+      "name": "Basic Coverage",
+      "coverage": 50000,
+      "cost": 0,
+      "description": "Standard insurance included"
+    },
+    {
+      "id": "enhanced",
+      "name": "Enhanced Coverage",
+      "coverage": 100000,
+      "cost": 250,
+      "description": "Extended coverage up to $100,000"
+    },
+    {
+      "id": "premium",
+      "name": "Premium Coverage",
+      "coverage": 250000,
+      "cost": 500,
+      "description": "Maximum protection up to $250,000"
+    }
+  ],
+  "trackingStages": [
+    {
+      "id": 1,
+      "name": "Order Confirmed",
+      "description": "Your order has been confirmed and is being processed",
+      "icon": "📋",
+      "estimatedTime": "0-1 days"
+    },
+    {
+      "id": 2,
+      "name": "Vehicle Preparation",
+      "description": "Vehicle is being prepared for shipment",
+      "icon": "🔧",
+      "estimatedTime": "1-3 days"
+    },
+    {
+      "id": 3,
+      "name": "At Origin Port",
+      "description": "Vehicle has arrived at the departure port",
+      "icon": "🚢",
+      "estimatedTime": "3-5 days"
+    },
+    {
+      "id": 4,
+      "name": "In Transit",
+      "description": "Vehicle is being transported to destination",
+      "icon": "🚚",
+      "estimatedTime": "5-10 days"
+    },
+    {
+      "id": 5,
+      "name": "At Destination Port",
+      "description": "Vehicle has arrived at destination port",
+      "icon": "📍",
+      "estimatedTime": "10-12 days"
+    },
+    {
+      "id": 6,
+      "name": "Final Delivery",
+      "description": "Vehicle is out for delivery to your address",
+      "icon": "🏠",
+      "estimatedTime": "12-14 days"
+    },
+    {
+      "id": 7,
+      "name": "Delivered",
+      "description": "Vehicle has been successfully delivered",
+      "icon": "✅",
+      "estimatedTime": "Complete"
+    }
+  ],
+  "sampleTracking": {
+    "orderId": "ORD-2024-001234",
+    "vehicle": "Toyota Camry XLE",
+    "customer": "John Doe",
+    "currentStage": 4,
+    "estimatedDelivery": "2024-12-15",
+    "carrier": "AutoTransport Express",
+    "trackingNumber": "ATX-789456123",
+    "route": {
+      "origin": {"city": "Detroit", "state": "MI", "lat": 42.3314, "lng": -83.0458},
+      "destination": {"city": "San Francisco", "state": "CA", "lat": 37.7749, "lng": -122.4194},
+      "currentLocation": {"city": "Denver", "state": "CO", "lat": 39.7392, "lng": -104.9903},
+      "progress": 65
+    },
+    "updates": [
+      {"date": "2024-12-01", "stage": 1, "note": "Order confirmed and payment received"},
+      {"date": "2024-12-02", "stage": 2, "note": "Vehicle inspection completed"},
+      {"date": "2024-12-04", "stage": 3, "note": "Loaded onto carrier at Detroit facility"},
+      {"date": "2024-12-06", "stage": 4, "note": "Currently in transit through Colorado"}
+    ]
+  }
+}

@@ -1,0 +1,766 @@
+{
+  "brands": [
+    {
+      "id": "toyota",
+      "name": "Toyota",
+      "logo": "https://via.placeholder.com/100x50/ff0000/ffffff?text=Toyota",
+      "models": [
+        {
+          "id": "camry",
+          "name": "Camry",
+          "year": 2024,
+          "category": "Sedan",
+          "startingPrice": 26420,
+          "thumbnail": "https://via.placeholder.com/400x300/333333/ffffff?text=Toyota+Camry",
+          "images360": [
+            "https://via.placeholder.com/800x600/333333/ffffff?text=Camry+Front",
+            "https://via.placeholder.com/800x600/444444/ffffff?text=Camry+Side1",
+            "https://via.placeholder.com/800x600/555555/ffffff?text=Camry+Rear",
+            "https://via.placeholder.com/800x600/666666/ffffff?text=Camry+Side2"
+          ],
+          "colors": [
+            {"name": "Midnight Black", "code": "#000000", "price": 0},
+            {"name": "Pearl White", "code": "#F8F8F8", "price": 395},
+            {"name": "Ruby Red", "code": "#8B0000", "price": 395},
+            {"name": "Celestial Silver", "code": "#C0C0C0", "price": 0},
+            {"name": "Blueprint Blue", "code": "#003366", "price": 395}
+          ],
+          "interiorColors": [
+            {"name": "Black Leather", "code": "#1C1C1C", "price": 0},
+            {"name": "Beige Leather", "code": "#F5DEB3", "price": 250},
+            {"name": "Red Sport", "code": "#8B0000", "price": 500}
+          ],
+          "trims": [
+            {
+              "id": "le",
+              "name": "LE",
+              "price": 26420,
+              "features": ["8-inch touchscreen", "Toyota Safety Sense 2.5+", "LED headlights", "Fabric seats"],
+              "mpg": "28/39",
+              "engine": "2.5L 4-Cylinder",
+              "transmission": "8-Speed Automatic"
+            },
+            {
+              "id": "se",
+              "name": "SE",
+              "price": 28185,
+              "features": ["Sport-tuned suspension", "18-inch alloy wheels", "Leather-trimmed seats", "Wireless charging"],
+              "mpg": "28/39",
+              "engine": "2.5L 4-Cylinder",
+              "transmission": "8-Speed Automatic"
+            },
+            {
+              "id": "xle",
+              "name": "XLE",
+              "price": 30820,
+              "features": ["Panoramic moonroof", "JBL Audio", "Heated seats", "Navigation system"],
+              "mpg": "28/39",
+              "engine": "2.5L 4-Cylinder",
+              "transmission": "8-Speed Automatic"
+            },
+            {
+              "id": "xse",
+              "name": "XSE V6",
+              "price": 36945,
+              "features": ["3.5L V6 engine", "Sport exhaust", "Premium leather", "Head-up display"],
+              "mpg": "22/33",
+              "engine": "3.5L V6",
+              "transmission": "8-Speed Automatic"
+            }
+          ],
+          "options": [
+            {"name": "Technology Package", "price": 1850, "description": "360-degree camera, parking sensors, digital rearview mirror"},
+            {"name": "Weather Package", "price": 750, "description": "Heated steering wheel, heated rear seats, windshield wiper de-icer"},
+            {"name": "Premium Audio", "price": 1200, "description": "12-speaker JBL premium audio system"},
+            {"name": "Towing Package", "price": 650, "description": "Trailer hitch, wiring harness, transmission cooler"}
+          ]
+        },
+        {
+          "id": "rav4",
+          "name": "RAV4",
+          "year": 2024,
+          "category": "SUV",
+          "startingPrice": 28275,
+          "thumbnail": "https://via.placeholder.com/400x300/2E4053/ffffff?text=Toyota+RAV4",
+          "images360": [
+            "https://via.placeholder.com/800x600/2E4053/ffffff?text=RAV4+Front",
+            "https://via.placeholder.com/800x600/3E5063/ffffff?text=RAV4+Side1",
+            "https://via.placeholder.com/800x600/4E6073/ffffff?text=RAV4+Rear",
+            "https://via.placeholder.com/800x600/5E7083/ffffff?text=RAV4+Side2"
+          ],
+          "colors": [
+            {"name": "Lunar Rock", "code": "#7A7A7A", "price": 425},
+            {"name": "Blueprint", "code": "#003366", "price": 0},
+            {"name": "Ruby Flare Pearl", "code": "#8B0000", "price": 425},
+            {"name": "Magnetic Gray", "code": "#696969", "price": 0}
+          ],
+          "interiorColors": [
+            {"name": "Black SofTex", "code": "#000000", "price": 0},
+            {"name": "Nutmeg SofTex", "code": "#8B4513", "price": 0}
+          ],
+          "trims": [
+            {
+              "id": "le",
+              "name": "LE",
+              "price": 28275,
+              "features": ["Toyota Safety Sense 2.0", "7-inch touchscreen", "All-wheel drive", "LED headlights"],
+              "mpg": "27/35",
+              "engine": "2.5L 4-Cylinder",
+              "transmission": "8-Speed Automatic"
+            },
+            {
+              "id": "xle",
+              "name": "XLE",
+              "price": 30780,
+              "features": ["Sunroof", "Dual-zone climate", "Power liftgate", "Blind spot monitoring"],
+              "mpg": "27/35",
+              "engine": "2.5L 4-Cylinder",
+              "transmission": "8-Speed Automatic"
+            },
+            {
+              "id": "xle-premium",
+              "name": "XLE Premium",
+              "price": 33280,
+              "features": ["Leather seats", "8-inch touchscreen", "Premium audio", "Wireless charging"],
+              "mpg": "27/35",
+              "engine": "2.5L 4-Cylinder",
+              "transmission": "8-Speed Automatic"
+            },
+            {
+              "id": "limited",
+              "name": "Limited",
+              "price": 36280,
+              "features": ["Ventilated seats", "Digital rearview mirror", "11-speaker JBL audio", "Hands-free liftgate"],
+              "mpg": "27/35",
+              "engine": "2.5L 4-Cylinder",
+              "transmission": "8-Speed Automatic"
+            }
+          ],
+          "options": [
+            {"name": "Adventure Package", "price": 1450, "description": "Roof rails, all-weather mats, cargo organizer"},
+            {"name": "Protection Package", "price": 395, "description": "Door edge guards, mudguards"},
+            {"name": "Technology Package", "price": 1875, "description": "Digital rearview mirror, panoramic view monitor"}
+          ]
+        },
+        {
+          "id": "highlander",
+          "name": "Highlander",
+          "year": 2024,
+          "category": "SUV",
+          "startingPrice": 37535,
+          "thumbnail": "https://via.placeholder.com/400x300/4B0082/ffffff?text=Toyota+Highlander",
+          "images360": [
+            "https://via.placeholder.com/800x600/4B0082/ffffff?text=Highlander+Front",
+            "https://via.placeholder.com/800x600/5B1092/ffffff?text=Highlander+Side1",
+            "https://via.placeholder.com/800x600/6B20A2/ffffff?text=Highlander+Rear",
+            "https://via.placeholder.com/800x600/7B30B2/ffffff?text=Highlander+Side2"
+          ],
+          "colors": [
+            {"name": "Celestial Black", "code": "#000000", "price": 0},
+            {"name": "Wind Chill Pearl", "code": "#FAFAFA", "price": 425},
+            {"name": "Cypress Green", "code": "#2F4F4F", "price": 425}
+          ],
+          "interiorColors": [
+            {"name": "Black Leather", "code": "#000000", "price": 0},
+            {"name": "Noble Brown Leather", "code": "#654321", "price": 350}
+          ],
+          "trims": [
+            {
+              "id": "l",
+              "name": "L",
+              "price": 37535,
+              "features": ["8 seats", "18-inch wheels", "8-inch touchscreen", "Toyota Safety Sense"],
+              "mpg": "22/29",
+              "engine": "2.4L Turbo 4-Cylinder",
+              "transmission": "8-Speed Automatic"
+            },
+            {
+              "id": "xle",
+              "name": "XLE",
+              "price": 42130,
+              "features": ["Leather seats", "Sunroof", "Power liftgate", "Heated seats"],
+              "mpg": "22/29",
+              "engine": "2.4L Turbo 4-Cylinder",
+              "transmission": "8-Speed Automatic"
+            },
+            {
+              "id": "limited",
+              "name": "Limited",
+              "price": 45830,
+              "features": ["Ventilated seats", "JBL audio", "20-inch wheels", "Digital rearview mirror"],
+              "mpg": "22/29",
+              "engine": "2.4L Turbo 4-Cylinder",
+              "transmission": "8-Speed Automatic"
+            },
+            {
+              "id": "platinum",
+              "name": "Platinum",
+              "price": 48830,
+              "features": ["Panoramic moonroof", "Head-up display", "Digital key", "Heated second row"],
+              "mpg": "22/29",
+              "engine": "2.4L Turbo 4-Cylinder",
+              "transmission": "8-Speed Automatic"
+            }
+          ],
+          "options": [
+            {"name": "Towing Package", "price": 750, "description": "5000 lb towing capacity, trailer brake controller"},
+            {"name": "Entertainment Package", "price": 2100, "description": "Rear seat entertainment system with dual screens"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bmw",
+      "name": "BMW",
+      "logo": "https://via.placeholder.com/100x50/0066CC/ffffff?text=BMW",
+      "models": [
+        {
+          "id": "3series",
+          "name": "3 Series",
+          "year": 2024,
+          "category": "Sedan",
+          "startingPrice": 44500,
+          "thumbnail": "https://via.placeholder.com/400x300/1E3A8A/ffffff?text=BMW+3+Series",
+          "images360": [
+            "https://via.placeholder.com/800x600/1E3A8A/ffffff?text=3Series+Front",
+            "https://via.placeholder.com/800x600/2E4A9A/ffffff?text=3Series+Side1",
+            "https://via.placeholder.com/800x600/3E5AAA/ffffff?text=3Series+Rear",
+            "https://via.placeholder.com/800x600/4E6ABA/ffffff?text=3Series+Side2"
+          ],
+          "colors": [
+            {"name": "Alpine White", "code": "#FFFFFF", "price": 0},
+            {"name": "Black Sapphire", "code": "#000000", "price": 0},
+            {"name": "Melbourne Red", "code": "#8B0000", "price": 550},
+            {"name": "Portimao Blue", "code": "#003D7D", "price": 550},
+            {"name": "Brooklyn Grey", "code": "#4A4A4A", "price": 550}
+          ],
+          "interiorColors": [
+            {"name": "Black Vernasca Leather", "code": "#000000", "price": 0},
+            {"name": "Cognac Vernasca Leather", "code": "#8B4513", "price": 1450},
+            {"name": "Oyster Vernasca Leather", "code": "#F5F5DC", "price": 1450}
+          ],
+          "trims": [
+            {
+              "id": "330i",
+              "name": "330i",
+              "price": 44500,
+              "features": ["2.0L TwinPower Turbo", "8.8-inch touchscreen", "Active Driving Assistant", "18-inch wheels"],
+              "mpg": "26/36",
+              "engine": "2.0L 4-Cylinder Turbo",
+              "transmission": "8-Speed Automatic",
+              "hp": 255
+            },
+            {
+              "id": "330i-xdrive",
+              "name": "330i xDrive",
+              "price": 46500,
+              "features": ["All-wheel drive", "2.0L TwinPower Turbo", "Heated seats", "Navigation"],
+              "mpg": "25/34",
+              "engine": "2.0L 4-Cylinder Turbo",
+              "transmission": "8-Speed Automatic",
+              "hp": 255
+            },
+            {
+              "id": "m340i",
+              "name": "M340i",
+              "price": 57800,
+              "features": ["3.0L inline-6 turbo", "M Sport brakes", "M Sport differential", "Adaptive suspension"],
+              "mpg": "22/30",
+              "engine": "3.0L 6-Cylinder Turbo",
+              "transmission": "8-Speed Automatic",
+              "hp": 382
+            },
+            {
+              "id": "m340i-xdrive",
+              "name": "M340i xDrive",
+              "price": 59800,
+              "features": ["All-wheel drive", "3.0L inline-6 turbo", "Launch control", "M Sport exhaust"],
+              "mpg": "21/28",
+              "engine": "3.0L 6-Cylinder Turbo",
+              "transmission": "8-Speed Automatic",
+              "hp": 382
+            }
+          ],
+          "options": [
+            {"name": "Premium Package", "price": 2300, "description": "Head-up display, gesture control, heated steering wheel"},
+            {"name": "Executive Package", "price": 3700, "description": "Parking assistance plus, surround view cameras, soft-close doors"},
+            {"name": "Driving Assistance Pro", "price": 1700, "description": "Extended traffic jam assistant, active lane keeping"},
+            {"name": "M Sport Package", "price": 2650, "description": "M Sport suspension, M aerodynamics, 19-inch M wheels"}
+          ]
+        },
+        {
+          "id": "x5",
+          "name": "X5",
+          "year": 2024,
+          "category": "SUV",
+          "startingPrice": 63900,
+          "thumbnail": "https://via.placeholder.com/400x300/2C3E50/ffffff?text=BMW+X5",
+          "images360": [
+            "https://via.placeholder.com/800x600/2C3E50/ffffff?text=X5+Front",
+            "https://via.placeholder.com/800x600/3C4E60/ffffff?text=X5+Side1",
+            "https://via.placeholder.com/800x600/4C5E70/ffffff?text=X5+Rear",
+            "https://via.placeholder.com/800x600/5C6E80/ffffff?text=X5+Side2"
+          ],
+          "colors": [
+            {"name": "Arctic Grey", "code": "#B8B8B8", "price": 0},
+            {"name": "Phytonic Blue", "code": "#003049", "price": 650},
+            {"name": "Tanzanite Blue", "code": "#1B263B", "price": 1950}
+          ],
+          "interiorColors": [
+            {"name": "Black Vernasca", "code": "#000000", "price": 0},
+            {"name": "Coffee Vernasca", "code": "#4B2F20", "price": 0},
+            {"name": "Ivory White Vernasca", "code": "#FFFFF0", "price": 1450}
+          ],
+          "trims": [
+            {
+              "id": "xdrive40i",
+              "name": "xDrive40i",
+              "price": 63900,
+              "features": ["3.0L inline-6 turbo", "12.3-inch touchscreen", "Panoramic moonroof", "20-inch wheels"],
+              "mpg": "21/26",
+              "engine": "3.0L 6-Cylinder Turbo",
+              "transmission": "8-Speed Automatic",
+              "hp": 335
+            },
+            {
+              "id": "xdrive50e",
+              "name": "xDrive50e",
+              "price": 71100,
+              "features": ["Plug-in hybrid", "Electric range 38 miles", "3.0L inline-6 turbo", "Premium package included"],
+              "mpg": "50 MPGe",
+              "engine": "3.0L 6-Cylinder Turbo + Electric",
+              "transmission": "8-Speed Automatic",
+              "hp": 483
+            },
+            {
+              "id": "m60i",
+              "name": "M60i",
+              "price": 89100,
+              "features": ["4.4L V8 turbo", "M Sport brakes", "M Sport exhaust", "22-inch M wheels"],
+              "mpg": "17/23",
+              "engine": "4.4L V8 Turbo",
+              "transmission": "8-Speed Automatic",
+              "hp": 523
+            }
+          ],
+          "options": [
+            {"name": "Luxury Seating Package", "price": 3500, "description": "Ventilated seats, massage, heated armrests"},
+            {"name": "Off-Road Package", "price": 1900, "description": "Skid plates, air suspension, off-road mode"},
+            {"name": "Premium Sound", "price": 3400, "description": "Bowers & Wilkins Diamond surround sound"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "logo": "https://via.placeholder.com/100x50/CC0000/ffffff?text=Tesla",
+      "models": [
+        {
+          "id": "model3",
+          "name": "Model 3",
+          "year": 2024,
+          "category": "Sedan",
+          "startingPrice": 38990,
+          "thumbnail": "https://via.placeholder.com/400x300/CC0000/ffffff?text=Tesla+Model+3",
+          "images360": [
+            "https://via.placeholder.com/800x600/CC0000/ffffff?text=Model3+Front",
+            "https://via.placeholder.com/800x600/DD1111/ffffff?text=Model3+Side1",
+            "https://via.placeholder.com/800x600/EE2222/ffffff?text=Model3+Rear",
+            "https://via.placeholder.com/800x600/FF3333/ffffff?text=Model3+Side2"
+          ],
+          "colors": [
+            {"name": "Pearl White", "code": "#FFFFFF", "price": 0},
+            {"name": "Solid Black", "code": "#000000", "price": 1000},
+            {"name": "Deep Blue Metallic", "code": "#003366", "price": 1000},
+            {"name": "Pearl Red", "code": "#8B0000", "price": 2000},
+            {"name": "Stealth Grey", "code": "#4A4A4A", "price": 1000}
+          ],
+          "interiorColors": [
+            {"name": "All Black", "code": "#000000", "price": 0},
+            {"name": "Black and White", "code": "#FFFFFF", "price": 1000}
+          ],
+          "trims": [
+            {
+              "id": "rwd",
+              "name": "Rear-Wheel Drive",
+              "price": 38990,
+              "features": ["272 mile range", "0-60 in 5.8s", "140 mph top speed", "Autopilot"],
+              "mpg": "134 MPGe",
+              "engine": "Electric",
+              "transmission": "Single-Speed",
+              "range": 272
+            },
+            {
+              "id": "long-range",
+              "name": "Long Range AWD",
+              "price": 45990,
+              "features": ["341 mile range", "0-60 in 4.2s", "145 mph top speed", "Dual motor AWD"],
+              "mpg": "131 MPGe",
+              "engine": "Dual Electric Motors",
+              "transmission": "Single-Speed",
+              "range": 341
+            },
+            {
+              "id": "performance",
+              "name": "Performance",
+              "price": 52990,
+              "features": ["315 mile range", "0-60 in 3.1s", "162 mph top speed", "Track mode"],
+              "mpg": "113 MPGe",
+              "engine": "Dual Electric Motors",
+              "transmission": "Single-Speed",
+              "range": 315
+            }
+          ],
+          "options": [
+            {"name": "Enhanced Autopilot", "price": 6000, "description": "Navigate on Autopilot, Auto Lane Change, Autopark"},
+            {"name": "Full Self-Driving", "price": 12000, "description": "All Enhanced Autopilot features plus traffic light recognition"},
+            {"name": "19\" Sport Wheels", "price": 1500, "description": "19-inch sport wheels with performance tires"}
+          ]
+        },
+        {
+          "id": "modely",
+          "name": "Model Y",
+          "year": 2024,
+          "category": "SUV",
+          "startingPrice": 47740,
+          "thumbnail": "https://via.placeholder.com/400x300/0066CC/ffffff?text=Tesla+Model+Y",
+          "images360": [
+            "https://via.placeholder.com/800x600/0066CC/ffffff?text=ModelY+Front",
+            "https://via.placeholder.com/800x600/1177DD/ffffff?text=ModelY+Side1",
+            "https://via.placeholder.com/800x600/2288EE/ffffff?text=ModelY+Rear",
+            "https://via.placeholder.com/800x600/3399FF/ffffff?text=ModelY+Side2"
+          ],
+          "colors": [
+            {"name": "Pearl White", "code": "#FFFFFF", "price": 0},
+            {"name": "Solid Black", "code": "#000000", "price": 1000},
+            {"name": "Midnight Silver", "code": "#3C3C3C", "price": 1000},
+            {"name": "Deep Blue", "code": "#003366", "price": 1000},
+            {"name": "Red Multi-Coat", "code": "#8B0000", "price": 2000}
+          ],
+          "interiorColors": [
+            {"name": "All Black", "code": "#000000", "price": 0},
+            {"name": "Black and White", "code": "#FFFFFF", "price": 1000}
+          ],
+          "trims": [
+            {
+              "id": "rwd",
+              "name": "Rear-Wheel Drive",
+              "price": 47740,
+              "features": ["260 mile range", "0-60 in 6.6s", "135 mph top speed", "Autopilot"],
+              "mpg": "127 MPGe",
+              "engine": "Electric",
+              "transmission": "Single-Speed",
+              "range": 260
+            },
+            {
+              "id": "long-range",
+              "name": "Long Range AWD",
+              "price": 50490,
+              "features": ["330 mile range", "0-60 in 4.8s", "135 mph top speed", "7 seats available"],
+              "mpg": "122 MPGe",
+              "engine": "Dual Electric Motors",
+              "transmission": "Single-Speed",
+              "range": 330
+            },
+            {
+              "id": "performance",
+              "name": "Performance",
+              "price": 54990,
+              "features": ["303 mile range", "0-60 in 3.5s", "155 mph top speed", "21\" wheels"],
+              "mpg": "111 MPGe",
+              "engine": "Dual Electric Motors",
+              "transmission": "Single-Speed",
+              "range": 303
+            }
+          ],
+          "options": [
+            {"name": "Third Row Seats", "price": 3000, "description": "Add two additional seats for 7-passenger capacity"},
+            {"name": "Tow Hitch", "price": 1000, "description": "3,500 lbs towing capacity"},
+            {"name": "Enhanced Autopilot", "price": 6000, "description": "Navigate on Autopilot, Auto Lane Change"},
+            {"name": "Full Self-Driving", "price": 12000, "description": "Complete autonomous driving capability"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mercedes",
+      "name": "Mercedes-Benz",
+      "logo": "https://via.placeholder.com/100x50/000000/ffffff?text=Mercedes",
+      "models": [
+        {
+          "id": "c-class",
+          "name": "C-Class",
+          "year": 2024,
+          "category": "Sedan",
+          "startingPrice": 46000,
+          "thumbnail": "https://via.placeholder.com/400x300/1A1A1A/ffffff?text=Mercedes+C-Class",
+          "images360": [
+            "https://via.placeholder.com/800x600/1A1A1A/ffffff?text=C-Class+Front",
+            "https://via.placeholder.com/800x600/2A2A2A/ffffff?text=C-Class+Side1",
+            "https://via.placeholder.com/800x600/3A3A3A/ffffff?text=C-Class+Rear",
+            "https://via.placeholder.com/800x600/4A4A4A/ffffff?text=C-Class+Side2"
+          ],
+          "colors": [
+            {"name": "Polar White", "code": "#FFFFFF", "price": 0},
+            {"name": "Obsidian Black", "code": "#000000", "price": 0},
+            {"name": "Manufaktur Patagonia Red", "code": "#8B0000", "price": 1750},
+            {"name": "Selenite Grey", "code": "#4B4B4B", "price": 720}
+          ],
+          "interiorColors": [
+            {"name": "Black MB-Tex", "code": "#000000", "price": 0},
+            {"name": "Sienna Brown Leather", "code": "#8B4513", "price": 1620},
+            {"name": "Neva Grey/Black", "code": "#808080", "price": 1620}
+          ],
+          "trims": [
+            {
+              "id": "c300",
+              "name": "C 300",
+              "price": 46000,
+              "features": ["2.0L turbo", "12.3\" digital cluster", "MBUX system", "18\" wheels"],
+              "mpg": "25/35",
+              "engine": "2.0L 4-Cylinder Turbo",
+              "transmission": "9-Speed Automatic",
+              "hp": 255
+            },
+            {
+              "id": "c300-4matic",
+              "name": "C 300 4MATIC",
+              "price": 48000,
+              "features": ["All-wheel drive", "2.0L turbo", "Heated seats", "Ambient lighting"],
+              "mpg": "23/33",
+              "engine": "2.0L 4-Cylinder Turbo",
+              "transmission": "9-Speed Automatic",
+              "hp": 255
+            },
+            {
+              "id": "amg-c43",
+              "name": "AMG C 43",
+              "price": 62600,
+              "features": ["AMG 2.0L turbo", "AMG suspension", "AMG exhaust", "19\" AMG wheels"],
+              "mpg": "22/29",
+              "engine": "2.0L 4-Cylinder Turbo + Electric",
+              "transmission": "9-Speed AMG",
+              "hp": 402
+            },
+            {
+              "id": "amg-c63s",
+              "name": "AMG C 63 S E Performance",
+              "price": 85050,
+              "features": ["Plug-in hybrid", "671 hp combined", "AMG Track Pace", "AMG aerodynamics"],
+              "mpg": "25 MPGe",
+              "engine": "2.0L 4-Cylinder Turbo + Electric",
+              "transmission": "9-Speed AMG",
+              "hp": 671
+            }
+          ],
+          "options": [
+            {"name": "Premium Package", "price": 2100, "description": "Burmester audio, wireless charging, 360 camera"},
+            {"name": "AMG Line", "price": 2700, "description": "AMG styling, sport suspension, perforated brakes"},
+            {"name": "Driver Assistance Package", "price": 1950, "description": "Active lane keeping, adaptive cruise, emergency stop"}
+          ]
+        },
+        {
+          "id": "gle",
+          "name": "GLE",
+          "year": 2024,
+          "category": "SUV",
+          "startingPrice": 61150,
+          "thumbnail": "https://via.placeholder.com/400x300/2B2B2B/ffffff?text=Mercedes+GLE",
+          "images360": [
+            "https://via.placeholder.com/800x600/2B2B2B/ffffff?text=GLE+Front",
+            "https://via.placeholder.com/800x600/3B3B3B/ffffff?text=GLE+Side1",
+            "https://via.placeholder.com/800x600/4B4B4B/ffffff?text=GLE+Rear",
+            "https://via.placeholder.com/800x600/5B5B5B/ffffff?text=GLE+Side2"
+          ],
+          "colors": [
+            {"name": "Mojave Silver", "code": "#C0C0C0", "price": 0},
+            {"name": "Emerald Green", "code": "#046307", "price": 720},
+            {"name": "Cirrus Silver", "code": "#DEDEDE", "price": 0}
+          ],
+          "interiorColors": [
+            {"name": "Black Leather", "code": "#000000", "price": 0},
+            {"name": "Macchiato Beige", "code": "#D2B48C", "price": 0},
+            {"name": "Auburn Brown", "code": "#7B3F00", "price": 1620}
+          ],
+          "trims": [
+            {
+              "id": "gle350",
+              "name": "GLE 350",
+              "price": 61150,
+              "features": ["2.0L turbo", "MBUX system", "Power liftgate", "19\" wheels"],
+              "mpg": "22/28",
+              "engine": "2.0L 4-Cylinder Turbo",
+              "transmission": "9-Speed Automatic",
+              "hp": 255
+            },
+            {
+              "id": "gle350-4matic",
+              "name": "GLE 350 4MATIC",
+              "price": 63650,
+              "features": ["All-wheel drive", "Heated seats", "Panoramic roof", "LED headlights"],
+              "mpg": "21/26",
+              "engine": "2.0L 4-Cylinder Turbo",
+              "transmission": "9-Speed Automatic",
+              "hp": 255
+            },
+            {
+              "id": "gle450",
+              "name": "GLE 450 4MATIC",
+              "price": 71350,
+              "features": ["3.0L inline-6 turbo", "EQ Boost", "Air suspension", "21\" wheels"],
+              "mpg": "20/25",
+              "engine": "3.0L 6-Cylinder Turbo + EQ Boost",
+              "transmission": "9-Speed Automatic",
+              "hp": 362
+            },
+            {
+              "id": "amg-gle53",
+              "name": "AMG GLE 53",
+              "price": 87400,
+              "features": ["AMG 3.0L turbo", "AMG suspension", "AMG performance exhaust", "22\" AMG wheels"],
+              "mpg": "18/23",
+              "engine": "3.0L 6-Cylinder Turbo + EQ Boost",
+              "transmission": "9-Speed AMG",
+              "hp": 429
+            }
+          ],
+          "options": [
+            {"name": "E-Active Body Control", "price": 4950, "description": "Advanced suspension system, curve tilting"},
+            {"name": "Executive Rear Seat Package", "price": 3250, "description": "Heated/ventilated rear seats, rear tablets"},
+            {"name": "Towing Package", "price": 575, "description": "7,700 lbs towing capacity"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audi",
+      "name": "Audi",
+      "logo": "https://via.placeholder.com/100x50/BB0000/ffffff?text=Audi",
+      "models": [
+        {
+          "id": "a4",
+          "name": "A4",
+          "year": 2024,
+          "category": "Sedan",
+          "startingPrice": 41400,
+          "thumbnail": "https://via.placeholder.com/400x300/595959/ffffff?text=Audi+A4",
+          "images360": [
+            "https://via.placeholder.com/800x600/595959/ffffff?text=A4+Front",
+            "https://via.placeholder.com/800x600/696969/ffffff?text=A4+Side1",
+            "https://via.placeholder.com/800x600/797979/ffffff?text=A4+Rear",
+            "https://via.placeholder.com/800x600/898989/ffffff?text=A4+Side2"
+          ],
+          "colors": [
+            {"name": "Ibis White", "code": "#FFFFFF", "price": 0},
+            {"name": "Mythos Black", "code": "#000000", "price": 0},
+            {"name": "Tango Red", "code": "#CC0000", "price": 595},
+            {"name": "Navarra Blue", "code": "#002F6C", "price": 595}
+          ],
+          "interiorColors": [
+            {"name": "Black Leather", "code": "#000000", "price": 0},
+            {"name": "Atlas Beige", "code": "#F5F5DC", "price": 0},
+            {"name": "Okapi Brown", "code": "#654321", "price": 450}
+          ],
+          "trims": [
+            {
+              "id": "40",
+              "name": "40 TFSI",
+              "price": 41400,
+              "features": ["2.0L turbo", "10.1\" touchscreen", "Audi virtual cockpit", "17\" wheels"],
+              "mpg": "27/37",
+              "engine": "2.0L 4-Cylinder Turbo",
+              "transmission": "7-Speed S tronic",
+              "hp": 201
+            },
+            {
+              "id": "45",
+              "name": "45 TFSI quattro",
+              "price": 45400,
+              "features": ["All-wheel drive", "2.0L turbo", "LED headlights", "18\" wheels"],
+              "mpg": "24/32",
+              "engine": "2.0L 4-Cylinder Turbo",
+              "transmission": "7-Speed S tronic",
+              "hp": 261
+            },
+            {
+              "id": "s4",
+              "name": "S4",
+              "price": 56400,
+              "features": ["3.0L V6 turbo", "Sport suspension", "Sport exhaust", "19\" wheels"],
+              "mpg": "20/28",
+              "engine": "3.0L V6 Turbo",
+              "transmission": "8-Speed Tiptronic",
+              "hp": 349
+            }
+          ],
+          "options": [
+            {"name": "Premium Plus Package", "price": 3200, "description": "Bang & Olufsen audio, Matrix LED headlights"},
+            {"name": "Black Optic Package", "price": 1050, "description": "Black exterior trim, 19\" black wheels"},
+            {"name": "Driver Assistance Package", "price": 1800, "description": "Adaptive cruise, lane assist, traffic sign recognition"}
+          ]
+        },
+        {
+          "id": "q5",
+          "name": "Q5",
+          "year": 2024,
+          "category": "SUV",
+          "startingPrice": 45400,
+          "thumbnail": "https://via.placeholder.com/400x300/3A3A3A/ffffff?text=Audi+Q5",
+          "images360": [
+            "https://via.placeholder.com/800x600/3A3A3A/ffffff?text=Q5+Front",
+            "https://via.placeholder.com/800x600/4A4A4A/ffffff?text=Q5+Side1",
+            "https://via.placeholder.com/800x600/5A5A5A/ffffff?text=Q5+Rear",
+            "https://via.placeholder.com/800x600/6A6A6A/ffffff?text=Q5+Side2"
+          ],
+          "colors": [
+            {"name": "Glacier White", "code": "#F8F8FF", "price": 0},
+            {"name": "Manhattan Gray", "code": "#5A5A5A", "price": 0},
+            {"name": "District Green", "code": "#2F4F2F", "price": 595}
+          ],
+          "interiorColors": [
+            {"name": "Black Leather", "code": "#000000", "price": 0},
+            {"name": "Rock Gray", "code": "#808080", "price": 0}
+          ],
+          "trims": [
+            {
+              "id": "45",
+              "name": "45 TFSI quattro",
+              "price": 45400,
+              "features": ["2.0L turbo", "Quattro AWD", "10.1\" touchscreen", "18\" wheels"],
+              "mpg": "23/28",
+              "engine": "2.0L 4-Cylinder Turbo",
+              "transmission": "7-Speed S tronic",
+              "hp": 261
+            },
+            {
+              "id": "55-phev",
+              "name": "55 TFSI e quattro",
+              "price": 58400,
+              "features": ["Plug-in hybrid", "24 miles electric range", "Quattro AWD", "19\" wheels"],
+              "mpg": "61 MPGe",
+              "engine": "2.0L 4-Cylinder Turbo + Electric",
+              "transmission": "7-Speed S tronic",
+              "hp": 362
+            },
+            {
+              "id": "sq5",
+              "name": "SQ5",
+              "price": 62400,
+              "features": ["3.0L V6 turbo", "Sport suspension", "Sport differential", "20\" wheels"],
+              "mpg": "19/24",
+              "engine": "3.0L V6 Turbo",
+              "transmission": "8-Speed Tiptronic",
+              "hp": 349
+            }
+          ],
+          "options": [
+            {"name": "Convenience Package", "price": 2400, "description": "Adaptive air suspension, power tailgate"},
+            {"name": "Towing Package", "price": 700, "description": "4,400 lbs towing capacity"},
+            {"name": "Warm Weather Package", "price": 850, "description": "4-zone climate control, ventilated seats"}
+          ]
+        }
+      ]
+    }
+  ]
+}

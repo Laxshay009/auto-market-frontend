@@ -1,0 +1,203 @@
+{
+  "financing": {
+    "terms": [
+      {"months": 24, "apr": 3.99, "label": "24 months"},
+      {"months": 36, "apr": 4.49, "label": "36 months"},
+      {"months": 48, "apr": 4.99, "label": "48 months"},
+      {"months": 60, "apr": 5.49, "label": "60 months"},
+      {"months": 72, "apr": 5.99, "label": "72 months"},
+      {"months": 84, "apr": 6.49, "label": "84 months"}
+    ],
+    "downPaymentOptions": [
+      {"percentage": 0, "label": "No down payment"},
+      {"percentage": 10, "label": "10% down"},
+      {"percentage": 20, "label": "20% down"},
+      {"percentage": 30, "label": "30% down"},
+      {"percentage": 50, "label": "50% down"}
+    ],
+    "creditScores": [
+      {"range": "720+", "label": "Excellent", "aprAdjustment": -0.5},
+      {"range": "680-719", "label": "Good", "aprAdjustment": 0},
+      {"range": "640-679", "label": "Fair", "aprAdjustment": 1.0},
+      {"range": "600-639", "label": "Poor", "aprAdjustment": 2.5},
+      {"range": "<600", "label": "Bad", "aprAdjustment": 4.0}
+    ]
+  },
+  "leasing": {
+    "terms": [
+      {"months": 24, "moneyFactor": 0.00125, "label": "24 months"},
+      {"months": 36, "moneyFactor": 0.00150, "label": "36 months"},
+      {"months": 48, "moneyFactor": 0.00175, "label": "48 months"}
+    ],
+    "mileageOptions": [
+      {"miles": 10000, "label": "10,000 miles/year", "adjustment": -50},
+      {"miles": 12000, "label": "12,000 miles/year", "adjustment": 0},
+      {"miles": 15000, "label": "15,000 miles/year", "adjustment": 50}
+    ],
+    "residualValues": {
+      "24": 0.65,
+      "36": 0.55,
+      "48": 0.45
+    }
+  },
+  "fees": [
+    {"name": "Documentation Fee", "amount": 399, "description": "Processing and paperwork"},
+    {"name": "Registration", "amount": 250, "description": "State registration fees"},
+    {"name": "Title Transfer", "amount": 125, "description": "Title processing"},
+    {"name": "Dealer Prep", "amount": 695, "description": "Vehicle preparation and inspection"}
+  ],
+  "taxes": {
+    "states": [
+      {"code": "CA", "rate": 7.25, "name": "California"},
+      {"code": "TX", "rate": 6.25, "name": "Texas"},
+      {"code": "FL", "rate": 6.00, "name": "Florida"},
+      {"code": "NY", "rate": 4.00, "name": "New York"},
+      {"code": "PA", "rate": 6.00, "name": "Pennsylvania"},
+      {"code": "IL", "rate": 6.25, "name": "Illinois"},
+      {"code": "OH", "rate": 5.75, "name": "Ohio"},
+      {"code": "GA", "rate": 4.00, "name": "Georgia"},
+      {"code": "NC", "rate": 3.00, "name": "North Carolina"},
+      {"code": "MI", "rate": 6.00, "name": "Michigan"}
+    ]
+  },
+  "incentives": [
+    {
+      "id": "cash-back",
+      "name": "Cash Back",
+      "amount": 2000,
+      "description": "Instant cash back on select models",
+      "eligibleBrands": ["toyota", "bmw"]
+    },
+    {
+      "id": "first-time",
+      "name": "First Time Buyer",
+      "amount": 1000,
+      "description": "Special discount for first-time buyers",
+      "eligibleBrands": ["all"]
+    },
+    {
+      "id": "military",
+      "name": "Military Discount",
+      "amount": 1500,
+      "description": "Thank you for your service",
+      "eligibleBrands": ["all"]
+    },
+    {
+      "id": "college-grad",
+      "name": "College Graduate",
+      "amount": 750,
+      "description": "Recent college graduate discount",
+      "eligibleBrands": ["all"]
+    },
+    {
+      "id": "loyalty",
+      "name": "Brand Loyalty",
+      "amount": 1250,
+      "description": "Returning customer discount",
+      "eligibleBrands": ["all"]
+    },
+    {
+      "id": "ev-incentive",
+      "name": "EV Federal Tax Credit",
+      "amount": 7500,
+      "description": "Federal tax credit for electric vehicles",
+      "eligibleBrands": ["tesla"]
+    }
+  ],
+  "tradeIn": {
+    "conditions": [
+      {"label": "Excellent", "value": 1.0, "description": "Like new, no issues"},
+      {"label": "Good", "value": 0.85, "description": "Minor wear, fully functional"},
+      {"label": "Fair", "value": 0.70, "description": "Some issues, needs minor work"},
+      {"label": "Poor", "value": 0.50, "description": "Major issues, needs significant work"}
+    ],
+    "ageDepreciation": [
+      {"years": 1, "rate": 0.80},
+      {"years": 2, "rate": 0.70},
+      {"years": 3, "rate": 0.60},
+      {"years": 4, "rate": 0.52},
+      {"years": 5, "rate": 0.45},
+      {"years": 6, "rate": 0.38},
+      {"years": 7, "rate": 0.32},
+      {"years": 8, "rate": 0.27},
+      {"years": 9, "rate": 0.23},
+      {"years": 10, "rate": 0.20}
+    ],
+    "mileageAdjustment": [
+      {"miles": 10000, "multiplier": 1.05},
+      {"miles": 20000, "multiplier": 1.00},
+      {"miles": 30000, "multiplier": 0.95},
+      {"miles": 50000, "multiplier": 0.85},
+      {"miles": 75000, "multiplier": 0.75},
+      {"miles": 100000, "multiplier": 0.65},
+      {"miles": 150000, "multiplier": 0.50}
+    ]
+  },
+  "warranties": [
+    {
+      "id": "basic",
+      "name": "Basic Warranty",
+      "years": 3,
+      "miles": 36000,
+      "cost": 0,
+      "coverage": ["Engine", "Transmission", "Drive system"],
+      "included": true
+    },
+    {
+      "id": "powertrain",
+      "name": "Powertrain Warranty",
+      "years": 5,
+      "miles": 60000,
+      "cost": 0,
+      "coverage": ["Engine", "Transmission", "Transfer case", "Drive shafts"],
+      "included": true
+    },
+    {
+      "id": "extended",
+      "name": "Extended Warranty",
+      "years": 7,
+      "miles": 100000,
+      "cost": 1895,
+      "coverage": ["Comprehensive coverage", "Roadside assistance", "Rental car", "Trip interruption"],
+      "included": false
+    },
+    {
+      "id": "platinum",
+      "name": "Platinum Protection",
+      "years": 10,
+      "miles": 150000,
+      "cost": 3495,
+      "coverage": ["Full coverage", "Zero deductible", "Maintenance included", "Wear items covered"],
+      "included": false
+    }
+  ],
+  "accessories": [
+    {
+      "category": "Protection",
+      "items": [
+        {"name": "All-Weather Floor Mats", "price": 195, "description": "Heavy-duty rubber mats"},
+        {"name": "Paint Protection Film", "price": 795, "description": "Clear protective film"},
+        {"name": "Ceramic Coating", "price": 1295, "description": "Professional ceramic coating"},
+        {"name": "Window Tinting", "price": 395, "description": "Premium ceramic tint"}
+      ]
+    },
+    {
+      "category": "Technology",
+      "items": [
+        {"name": "Dashcam System", "price": 495, "description": "Front and rear cameras"},
+        {"name": "Remote Start", "price": 695, "description": "Smartphone integration"},
+        {"name": "Wireless Charger", "price": 295, "description": "Qi wireless charging pad"},
+        {"name": "Premium Sound Upgrade", "price": 1495, "description": "Amplifier and subwoofer"}
+      ]
+    },
+    {
+      "category": "Convenience",
+      "items": [
+        {"name": "Roof Rack System", "price": 595, "description": "Aerodynamic crossbars"},
+        {"name": "Cargo Organizer", "price": 195, "description": "Trunk organization system"},
+        {"name": "Trailer Hitch", "price": 795, "description": "Class III hitch receiver"},
+        {"name": "Running Boards", "price": 895, "description": "Illuminated side steps"}
+      ]
+    }
+  ]
+}
